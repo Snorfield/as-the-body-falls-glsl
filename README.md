@@ -21,7 +21,7 @@ To run out of the box, you simply need to paste index.glsl into the [shadertoy](
 - maxSteps: Maximum steps the program can simulate each particle.
 
 - drag: The simplicity of the output, lower numbers generate more complex patterns
-- 
+
 - minDistance: How close a particle needs to get to a gravity point to "collide".
     
 - gravity = Precision of the output
