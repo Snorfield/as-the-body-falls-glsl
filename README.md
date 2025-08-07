@@ -12,6 +12,12 @@ So how does this all work? Basically, you get to choose the number and position 
 
 To run out of the box, you simply need to paste index.glsl into the [shadertoy](https://www.shadertoy.com/new) GLSL environment. Positions can be changed in the points array, and you can paste palettes in from the palette file, though you need to have at least as many colors as positions.
 
+## I don't want to use ShaderToy
+
+This is obviously mostly valid GLSL with the exception of some variables such as `iResolution`, `fragCoord`, and `fragColor` which is used by ShaderToy. If you have decent knowlege of the environment you want to view this in, it wouldn't be hard to change the instances of the variables into the correct version for your environment. For example, in Godot's shader language, `void mainImage( out vec4 fragColor, in vec2 fragCoord )` turns into `void fragment()`, `fragColor` turns into `COLOR`, and `fragCoord` turns into `FRAGCOORD`. 
+
+It then runs fine in Godot, perhaps applied as a shader material to a `ColorRect` node.
+
 ![Example 2](/example2.png)
 
 ## Parameter index
