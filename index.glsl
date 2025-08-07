@@ -8,7 +8,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
     int maxSteps = 30000;
     
     // Default drag value
-    float drag = 0.0;
+    float drag = 0.0005;
     
     // How close does a particle need to be to "collide"?
     float minDistance = 5.0;
