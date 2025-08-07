@@ -1,4 +1,5 @@
-vec3 autumn[10] = vec3[](
+// autumn
+vec3 colors[10] = vec3[](
     vec3(0.64, 0.14, 0.20),  // #ae2334
     vec3(0.91, 0.23, 0.23),  // #e83b3b
     vec3(0.98, 0.42, 0.11),  // #fb6b1d
@@ -11,7 +12,8 @@ vec3 autumn[10] = vec3[](
     vec3(0.09, 0.35, 0.30)   // #165a4c
 );
 
-vec3 bubblegum[6] = vec3[](
+// bubblegum
+vec3 colors[6] = vec3[](
     vec3(0.51, 0.11, 0.36),  // #831c5d
     vec3(0.76, 0.14, 0.33),  // #c32454
     vec3(0.94, 0.31, 0.47),  // #f04f78
@@ -20,7 +22,8 @@ vec3 bubblegum[6] = vec3[](
     vec3(1.00, 0.80, 0.69)   // #fdcbb0
 );
 
-vec3 cliffs[5] = vec3[](
+// cliffs
+vec3 colors[5] = vec3[](
     vec3(0.41, 0.31, 0.38),  // #694f62
     vec3(0.50, 0.44, 0.54),  // #7f708a
     vec3(0.61, 0.67, 0.70),  // #9babb2
@@ -28,7 +31,8 @@ vec3 cliffs[5] = vec3[](
     vec3(1.00, 1.00, 1.00)   // #ffffff
 );
 
-vec3 ghost[11] = vec3[](
+// ghost
+vec3 colors[11] = vec3[](
     vec3(0.0, 0.0, 0.0),    // #00000000
     vec3(0.42, 0.99, 0.01), // #6bfc03
     vec3(0.0, 0.0, 0.0),    // #00000000
@@ -42,7 +46,8 @@ vec3 ghost[11] = vec3[](
     vec3(0.0, 0.0, 0.0)     // #00000000
 );
 
-vec3 coffee[9] = vec3[](
+// coffee
+vec3 colors[9] = vec3[](
     vec3(0.98, 0.90, 0.81),  // #f9e6cf
     vec3(0.96, 0.79, 0.62),  // #f6ca9f
     vec3(0.90, 0.61, 0.41),  // #e69c69
@@ -54,7 +59,8 @@ vec3 coffee[9] = vec3[](
     vec3(0.06, 0.03, 0.11)   // #0e071b
 );
 
-vec3 window[10] = vec3[](
+// window
+vec3 colors[10] = vec3[](
     vec3(0.21, 0.04, 0.36),  // #36065b80
     vec3(0.52, 0.07, 0.71),  // #8512b680
     vec3(0.98, 0.43, 0.99),  // #fa6efd80
@@ -67,7 +73,8 @@ vec3 window[10] = vec3[](
     vec3(0.76, 0.0, 0.0)     // #c2000080
 );
 
-vec3 mocha[26] = vec3[](
+// mocha
+vec3 colors[26] = vec3[](
     vec3(0.07, 0.07, 0.11),  // #11111b
     vec3(0.09, 0.09, 0.15),  // #181825
     vec3(0.12, 0.12, 0.18),  // #1e1e2e
@@ -96,7 +103,8 @@ vec3 mocha[26] = vec3[](
     vec3(0.96, 0.88, 0.86)   // #f5e0dc
 );
 
-vec3 seafloor[8] = vec3[](
+// seafloor
+vec3 colors[8] = vec3[](
     vec3(1.0, 1.0, 1.0),     // #FFFFFF
     vec3(0.56, 0.97, 0.88),  // #8FF8E2
     vec3(0.19, 0.88, 0.72),  // #30E1B9
@@ -107,7 +115,8 @@ vec3 seafloor[8] = vec3[](
     vec3(0.18, 0.13, 0.19)   // #2E222F
 );
 
-vec3 inferno[8] = vec3[](
+// inferno
+vec3 colors[8] = vec3[](
     vec3(1.0, 0.87, 0.41),   // #ffdd69
     vec3(0.99, 0.56, 0.39),  // #fe8e63
     vec3(0.82, 0.23, 0.21),  // #d23b36
@@ -118,7 +127,8 @@ vec3 inferno[8] = vec3[](
     vec3(0.0, 0.01, 0.14)    // #000323
 );
 
-vec3 firelight[8] = vec3[](
+// firelight 
+vec3 colors[8] = vec3[](
     vec3(1.0, 0.93, 0.84),   // #ffecd6
     vec3(1.0, 0.83, 0.64),   // #ffd4a3
     vec3(1.0, 0.67, 0.37),   // #ffaa5e
@@ -129,7 +139,8 @@ vec3 firelight[8] = vec3[](
     vec3(0.05, 0.17, 0.27)   // #0d2b45
 );
 
-vec3 glacier[6] = vec3[](
+// glacier
+vec3 colors[6] = vec3[](
     vec3(1.0, 1.0, 1.0),     // #ffffff
     vec3(0.05, 0.90, 0.95),  // #0ce6f2
     vec3(0.0, 0.60, 0.86),   // #0098db
@@ -138,7 +149,8 @@ vec3 glacier[6] = vec3[](
     vec3(0.15, 0.14, 0.27)   // #252446
 );
 
-vec3 souls[6] = vec3[](
+// souls
+vec3 colors[6] = vec3[](
     vec3(0.25, 0.11, 0.19),  // #411d31
     vec3(0.39, 0.11, 0.20),  // #631b34
     vec3(0.20, 0.33, 0.37),  // #32535f
@@ -147,7 +159,8 @@ vec3 souls[6] = vec3[](
     vec3(0.19, 0.88, 0.72)   // #30e1b9
 );
 
-vec3 acidic[7] = vec3[](
+// acidic
+vec3 colors[7] = vec3[](
     vec3(0.99, 0.97, 0.38),  // #fcf660
     vec3(0.70, 0.85, 0.26),  // #b2d942
     vec3(0.32, 0.76, 0.25),  // #52c33f
@@ -157,7 +170,8 @@ vec3 acidic[7] = vec3[](
     vec3(0.13, 0.10, 0.20)   // #201533
 );
 
-vec3 retro[10] = vec3[](
+// retro
+vec3 colors[10] = vec3[](
     vec3(0.21, 0.16, 0.33),  // #352a55
     vec3(0.87, 0.03, 0.45),  // #df0772
     vec3(1.0, 0.33, 0.44),   // #fe546f
@@ -170,7 +184,8 @@ vec3 retro[10] = vec3[](
     vec3(0.24, 0.20, 0.39)   // #3e3264
 );
 
-vec3 blackhole[10] = vec3[](
+// blackhole
+vec3 colors[10] = vec3[](
     vec3(1.0, 1.0, 1.0),     // #ffffff
     vec3(0.0, 0.0, 0.0),     // #000000
     vec3(0.05, 0.0, 0.10),   // #0d001a
