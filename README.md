@@ -3,7 +3,7 @@
 ## Forked from **as the body falls**, this readme and the example images belong to the original creator, man-o-valor. The readme has been updated for this version specifically
 
 ### I recommend you use the original for far more customizablity, this is simply one written to be slightly faster.
--
+------
 Welcome to the repository for **as the body falls (glsl)**, a ported version of **as the body falls** for a GLSL fragment shader that generates images based on falling planets. It supports custom palettes, planets, and parameters, and there's endless possibilities and permutations!
 
 So how does this all work? Basically, you get to choose the number and position of "gravity points" on your image that have mass. Then for each pixel, it drops a little planet that falls toward the points. The point that it falls into determines the color of the pixel!
