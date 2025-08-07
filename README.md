@@ -1,6 +1,8 @@
 # ☄️ as the body falls (glsl) 🌀
 
-Forked from **as the body falls**, this readme and the example images belong to the original creator, man-o-valor. The readme has been updated for this version specifically
+# Forked from **as the body falls**, this readme and the example images belong to the original creator, man-o-valor. The readme has been updated for this version specifically
+
+I recommend you use the original for far more customizablity, this is simply one written to be slightly faster.
 -
 Welcome to the repository for **as the body falls (glsl)**, a ported version of **as the body falls** for a GLSL fragment shader that generates images based on falling planets. It supports custom palettes, planets, and parameters, and there's endless possibilities and permutations!
 
