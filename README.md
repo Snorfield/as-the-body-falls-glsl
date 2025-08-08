@@ -12,7 +12,7 @@ So how does this all work? Basically, you get to choose the number and position 
 
 ## How do I use it?
 
-To run out of the box, you simply need to paste index.glsl into the [shadertoy](https://www.shadertoy.com/new) GLSL environment. Positions can be changed in the points array, and you can paste palettes in from the palette file, though you need to have at least as many colors as positions.
+To run out of the box, you simply need to paste index.glsl (star.glsl is the same thing, but it has a custom config to display a cool pattern) into the [shadertoy](https://www.shadertoy.com/new) GLSL environment. Positions can be changed in the points array, and you can paste palettes in from the palette file, though you need to have at least as many colors as positions.
 
 ## I don't want to use ShaderToy
 
